@@ -9,7 +9,7 @@ file1.close()
 
 file2 = open("rules/height.txt", "r")
 height_check = int(file2.read())
-file1.close()
+file2.close() #File2 wordt nu goed gesloten
 
 running = True
 while running:
