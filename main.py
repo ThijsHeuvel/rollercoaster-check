@@ -27,7 +27,7 @@ while running:
         os.system('cls')
         print("Stap maar in!")
         print(coasterimg.get())
-        time.sleep(1) #pauze naar 1sec
+        time.sleep(3) #sleep naar 3 seconden
 
     else:
         os.system('cls')
